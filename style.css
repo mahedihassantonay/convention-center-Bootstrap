@@ -1,0 +1,56 @@
+/* Font Family */
+body{
+    font-family: 'Poppins', sans-serif!important;
+}
+.primary-font-color{
+    color: #3E3E3E!important;
+}
+.plan-btn{
+    background-color:  #FEF5FB;
+    padding: 20px 80px;
+    border-radius: 24px;
+    color: #3F87F5;
+}
+.title{
+    color: #231D4F;
+    font-weight: 700;
+}
+.package:hover{
+    background-color: #3F87F5;
+    color: #FEF5FB!important;
+}
+.title:hover{
+    color: #FEF5FB;
+}
+
+.hot{
+    background-color: red;
+    color: white;
+    padding: .8rem 1.5rem;
+    border-radius: 45%;
+    position: relative;
+    top: -440px ;
+    left: 200px;
+}
+
+
+
+
+
+
+@media only screen and (max-width:576px) {
+    .wedding-moment>div{
+        margin-top: -100px;
+    }
+    
+    .package{
+        text-align: center;
+        
+    }
+    .hot{
+       left: 90px;
+       top: -390px;
+        
+
+    }
+}
